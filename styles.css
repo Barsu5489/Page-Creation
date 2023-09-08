@@ -40,7 +40,7 @@ font-size: xx-large;
 section{
     display:flex ;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(179, 199, 253);
     height: calc(100vh - 7rem);
     
 }

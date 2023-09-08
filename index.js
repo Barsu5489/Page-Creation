@@ -4,4 +4,4 @@ const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 const dayNumber = new Date().getDay()
 const now = new Date
 currentTime.textContent += `${days[dayNumber]}`
-miliSec.textContent += `${Date.UTC(now.getUTCMilliseconds())} seconds`
+miliSec.textContent += `${Date.UTC(now.getUTCMilliseconds())} milliseconds`
